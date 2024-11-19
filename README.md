@@ -1,4 +1,4 @@
-# dynamic-calendar--
+# 허정의 달력
 
 ![버섯달력](https://github.com/user-attachments/assets/fca5de97-d14a-4e56-81ec-a19c71d52447)
 
