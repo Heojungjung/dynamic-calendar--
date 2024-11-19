@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'MaplestoryOTFBold';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  border-collapse: collapse;
+  font-family: 'MaplestoryOTFBold';
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  width: 100vw;
+  background-color: rgb(230, 230, 230);
+}
+.calendar-container{
+  text-align: center;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px;
+  margin: 50px;
+}
+h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+.setting-calender{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+}
+#currentMonth{
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+}
+button{
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s;
+}
+button:hover{
+  background-color: green;
+}
+table{
+  height: 50vh;
+}
+td{
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+}
+td:hover{
+  background-color: lightblue;
+}
+th{
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(255, 126, 41);
+}
+th:first-child{
+  border-radius: 20px 0px 0px 20px;
+  color: crimson;
+  text-shadow: 0px 0px 1px white;
+}
+th:last-child{
+  border-radius: 0px 20px 20px 0px;
+  color: blue;
+  text-shadow: 0px 0px 1px white;
+}
+tr>td:first-child{
+  color: crimson;
+}
+tr>td:last-child{
+  color: cornflowerblue;
+}
+.day-input-here{
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  height: 50px;
+}
+.today{
+  background-color: rgb(255, 199, 199);
+  background-image: url(https://maplestory.io/api/gms/62/mob/1110100/icon?resize=3);
+  background-size: 50px;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.today:hover{
+  background-image: url(https://dcimg1.dcinside.com/viewimage.php?id=3eb4de21e9d73ab360b8dab04785736f&no=24b0d769e1d32ca73de986fa11d02831cece6b72dd02ce8c7323b841a4828661047eeeb0a026874f5f912b36fe9f62ae4c50396b175d8ad22aab37301bbe37d1fc17b254fb2f0e4a97a59a171353c431c6c58a0520f426c7735bb36b);
+}
+.day-input-here>h4{
+  font-size: 28px;
+}
